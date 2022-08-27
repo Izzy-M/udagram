@@ -44,12 +44,12 @@ import {filterImageFromURL, deleteLocalFiles,putLocalfiles} from './util/util';
       deleteLocalFiles([imagefound])
     })
   } );
-  app.put("/addnew", async(reg,res)=>{
-    res.send("/"+reg);
-  });
-  app.delete("/deleteimg", async(reg,res)=>{
-    res.send("/"+reg);
-  });
+  // app.put("/addnew", async(reg,res)=>{
+  //   res.send("/"+reg);
+  // });
+  // app.delete("/deleteimg", async(reg,res)=>{
+  //   res.send("/"+reg);
+  // });
   
 
   // Start the Server
