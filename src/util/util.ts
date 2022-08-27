@@ -37,3 +37,12 @@ export async function deleteLocalFiles(files: Array<string>) {
     fs.unlinkSync(file);
   }
 }
+ export async function putLocalfiles(files:Array<string>):Promise<string>{
+  return new Promise (async (resolve,reject)=>{
+    try{
+
+    }catch(error){
+      reject(error);
+    }
+  })
+ }
