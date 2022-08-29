@@ -21,11 +21,11 @@ In windows, install Python and PIP and ensure python is added to the environment
 Use ```eb init``` to initialize the application
 It will give you the procedures to follow along.
 to crest the application environment, ```eb create```
-and use ```eb deploy`` to deploy the  application
+and use ```eb deploy``` to deploy the  application
 
 ## Application endpoints
 To filter the public image, use this url to filter the images
-<a>http://udagram-dev2.us-east-1.elasticbeanstalk.com/filteredimage?image_url={image url}</a>
+<a>http://udagram-dev2.us-east-1.elasticbeanstalk.com/filteredimage?image_url={imageurl}</a>
 
 ## Environment snapshots
 To see the deployment environment, check che snapshots folder to assess the application dashboard
